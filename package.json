@@ -4,7 +4,8 @@
   "description": "repo for help developer learn JS",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --env node --watch"
   },
   "repository": {
     "type": "git",
