@@ -1,5 +1,6 @@
 # Test-driven-js-learning
-借助一些典型的习题，配合充分的测试用例，帮助开发者更好的掌握JS常见语法的底层原理
+借助一些典型的JS习题，配合充分的测试用例，帮助开发者更好的掌握JS常见语法的底层原理
+使用 jest 作为测试工具
 
 ## 环境要求
 - [Git](https://git-scm.com/)
@@ -12,10 +13,10 @@
   git clone git@github.com:test-driven-code-learning/JavaScript.git
   ```
 
-2. Install dependencies (for automated tests):
+2. Install dependencies:
 
   ``` bash
-  cd vue-advanced-workshop
+  cd JavaScript
   npm install
   ```
 
@@ -26,7 +27,7 @@
 
 ### 提交测试
 
-运行下面的npm脚本，会执行 __test__ 目录下的 1.1.test.js 测试用例，并会明确给出测试反馈
+运行下面的npm脚本，会执行 `__test__` 目录下的 1.1.test.js 测试用例，并会明确给出测试反馈
 
 ``` bash
 npm test 1.1
