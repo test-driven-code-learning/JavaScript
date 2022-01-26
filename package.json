@@ -1,0 +1,27 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "repo for help developer learn JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/test-driven-code-learning/JavaScript.git"
+  },
+  "keywords": [
+    "test-driven",
+    "JavaScript"
+  ],
+  "author": "z_daoyang@foxmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/test-driven-code-learning/JavaScript/issues"
+  },
+  "homepage": "https://github.com/test-driven-code-learning/JavaScript#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.7"
+  }
+}
