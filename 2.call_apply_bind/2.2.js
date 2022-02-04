@@ -5,7 +5,7 @@
 */
 
 
-Function.prototype.myApply = function(context, args) {
+Function.prototype.myApply = function(context, args = []) {
   if([null, undefined].includes(context)) {
     context = global
   } else if (['string', 'number', 'boolean'].includes(typeof context)) {
@@ -16,6 +16,5 @@ Function.prototype.myApply = function(context, args) {
   setTimeout(() => {
     delete context[fn]
   }, 0)
-  // console.log(context[fn])
   return context[fn](...args)
 }

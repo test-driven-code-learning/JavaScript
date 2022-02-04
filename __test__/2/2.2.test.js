@@ -49,7 +49,8 @@ test('上下文的原有属性没有被改变', done => {
 
   // 判断属性是否被修改
   function isNotModify(snapshot, obj) {
-    return Object.getOwnPropertyNames(obj).every(key => obj[key] === snapshot[key]) && Object.getOwnPropertySymbols(obj).every(key => obj[key] === snapshot[key])
+    return Object.getOwnPropertyNames(obj).every(key => obj[key] === snapshot[key]) 
+    && Object.getOwnPropertySymbols(obj).every(key => obj[key] === snapshot[key])
   }
 
   expect(print.myApply(obj, ['180', '60'])).toBe('lisa-20-180-60')

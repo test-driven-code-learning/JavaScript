@@ -12,7 +12,7 @@
     "url": "git+https://github.com/test-driven-code-learning/JavaScript.git"
   },
   "keywords": [
-    "test-driven",
+    "test-driven-learning",
     "JavaScript"
   ],
   "author": "z_daoyang@foxmail.com",
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/test-driven-code-learning/JavaScript#readme",
   "devDependencies": {
-    "@types/jest": "^27.4.0",
     "jest": "^27.4.7"
   }
 }
