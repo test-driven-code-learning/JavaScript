@@ -1,4 +1,4 @@
-require('../../9.array_push_filter_map/9.1')
+require('../../09.array_push_filter_map/9.1')
 
 let arr = [1, 2, 3]
 

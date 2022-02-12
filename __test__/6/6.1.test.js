@@ -1,4 +1,4 @@
-const deepClone = require('../../6.deep_clone/6.1')
+const deepClone = require('../../06.deep_clone/6.1')
 
 // string、number、boolean、undefined、null、symbol、bigInt、array、set、object、map、function、Date、RegExp
 

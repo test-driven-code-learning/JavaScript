@@ -1,4 +1,4 @@
-require('../../7.array_flat/7.1')
+require('../../07.array_flat/7.1')
 
 let arr = [1,2,3,[4,5,[6,7, new Set([1,2,3])]]]
 

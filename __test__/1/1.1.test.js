@@ -1,4 +1,4 @@
-const myNew = require('../../1.the_new_operator/1.1')
+const myNew = require('../../01.the_new_operator/1.1')
 
 
 function Person(name, age) {

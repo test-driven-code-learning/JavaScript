@@ -1,4 +1,4 @@
-require('../../3.object_create/3.1')
+require('../../03.object_create/3.1')
 
 var obj = {
   name: 'jack'

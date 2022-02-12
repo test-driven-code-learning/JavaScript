@@ -1,4 +1,4 @@
-require('../../5.promise_all/5.1')
+require('../../05.promise_all/5.1')
 
 let p1 = new Promise((resolve, reject) => {
   setTimeout(resolve, 100, 'p1')

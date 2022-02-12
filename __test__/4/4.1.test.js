@@ -1,4 +1,4 @@
-const myInstanceof = require('../../4.instanceof/4.1')
+const myInstanceof = require('../../04.instanceof/4.1')
 
 // 3. 向上查找左侧对象的 __proto__ 属性，看其是否与右侧对象的 prototype 属性相等
 // 4. 左侧查找至 null 仍然不相等，则返回false

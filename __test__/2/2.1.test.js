@@ -1,4 +1,4 @@
-require('../../2.call_apply_bind/2.1')
+require('../../02.call_apply_bind/2.1')
 
 
 global.name = 'jack'

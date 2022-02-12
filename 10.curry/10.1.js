@@ -1,16 +1,6 @@
-function add(...args) {
-  return args.reduce((a, b) => a + b)
-}
-
-// function currying() {
-//   ...
-// }
-
-let addCurry = currying(add)
-console.log(addCurry(1)(2)(3)())  //6
-console.log(addCurry(1)(2)(3)(4)())  //10
-console.log(addCurry(1)(2)(3, 4, 5)())  //15
-console.log(addCurry(1)(2, 3, 4, 5)())  //15
+/* 
+  实现一个 currying 方法，具体描述请看 md
+*/
 
 function currying(fn) {
   let args = []

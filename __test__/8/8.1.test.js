@@ -1,4 +1,4 @@
-require('../../8.promise_race/8.1')
+require('../../08.promise_race/8.1')
 
 let p1 = new Promise((resolve, reject) => {
   setTimeout(resolve, 200, 'p1')
